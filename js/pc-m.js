@@ -1,0 +1,1 @@
+"use strict";(function(c){var d=c.pathname,b=d.length,a=b>1&&d.indexOf("/m/")===0;/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)?a||c.replace(b>1?c.href.replace(d,"/m"+d):"/m/"):a&&c.replace(d.replace("/m/","/"))})(location);
